@@ -18,12 +18,12 @@ from datetime import datetime
 DOLL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/f8d63b1dc5676fc9988f1.jpg"
 
 
-DOLL = "✯ 𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝙃𝙀𝙍𝙀 ✯\n\n"
+DOLL = "✯ 𝐇𝐀𝐂𝐊𝐄𝐑 𝐗 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 𝙃𝙀𝙍𝙀 ✯\n\n"
 DOLL += f"**꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂**\n"
 DOLL += f"═══════════════════\n"
 DOLL += f"• **𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `3.10.1`\n"
 DOLL += f"• **𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `{version.__version__}`\n"
-DOLL += f"• **𝙳𝙾𝙻𝙻 𝚇 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃 𝚅𝙴𝚁𝚂𝙸𝙾𝙽**  : `{deadlyversion}`\n"
+DOLL += f"• **𝐇𝐀𝐂𝐊𝐄𝐑 𝐗 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 𝚅𝙴𝚁𝚂𝙸𝙾𝙽**  : `{deadlyversion}`\n"
 DOLL += f"═══════════════════\n\n"   
 
                                   
@@ -35,11 +35,11 @@ async def alive(event):
                                   caption=DOLL,
                                   buttons=[
         [
-        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/Dollx_spambot"),
-        Button.url("🇮🇳sᴜᴘᴘᴏʀᴛ🇮🇳", "https://t.me/DollxSpam_BOT")
+        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/O_P_Hacker"),
+        Button.url("🇮🇳sᴜᴘᴘᴏʀᴛ🇮🇳", "https://t.me/O_P_Hacker")
         ],
         [
-        Button.url("• 🙂ʀᴇᴘᴏ🙂 •", "https://github.com/DOMINATOR-XD/DollXSpamBot")
+        Button.url("• 🙂𝐇𝐀𝐂𝐊𝐄𝐑🙂 •", "https://t.me/legend_of_all_groups")
         ]
         ]
         )
@@ -88,7 +88,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n ⚡️𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝙃𝙀𝙍𝙀⚡️ \n\n ꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂ \n\n❤️ `{ms}` 𝗺𝘀 ❤️")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n ⚡️𝐇𝐀𝐂𝐊𝐄𝐑 𝐗 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓⚡️ \n\n ꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂ /n 🔸𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - @Legend_of_all_groups /n 🔸𝐀 𝐏𝐚𝐫𝐭 𝐎𝐟 - @O_P_Hacker \n\n❤️ `{ms}` 𝗺𝘀 ❤️")
         
         
 
@@ -104,7 +104,7 @@ async def ping(e):
 @BOT9.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "𝐑𝐞𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ↪️.. Please Wait Until It Starts Again"
+        text = "𝐑𝐞𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ↪️.. Please Wait Until It Starts Again /n 🔸𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - @Legend_of_all_groups /n 🔸𝐀 𝐏𝐚𝐫𝐭 𝐎𝐟 - @O_P_Hacker"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await BOT0.disconnect()
@@ -177,7 +177,7 @@ async def tb(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
+        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute.../n JOIN @O_P_Hacker")
         heroku_var[DEADLY] = newsudo   
    
      
