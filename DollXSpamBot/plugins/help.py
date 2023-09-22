@@ -5,9 +5,9 @@ from time import time
 from datetime import datetime
 from DollXSpamBot import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/a21ba38c03755bce23bb6.jpg"
+HELP_PIC = "https://te.legra.ph/file/d106519f324f3309b23eb.jpg"
 
-DOLL_Help = "🔥 𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩 🔥\n\n"
+DOLL_Help = "🔥 HACKER ✘ 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩 🔥\n\n"
 
 DOLL_Help = "**꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂**\n"
  
@@ -31,7 +31,7 @@ DOLL_Help += f" `!hang` - 😂 ↧\n\n"
 
 DOLL_Help += f" `!bspam` - 𝗕𝗜𝗥𝗧𝗛𝗗𝗔𝗬 𝗦𝗣𝗔𝗠🥵 ↧\n\n"
 
-DOLL_Help += f"© @Dollx_spambot\n"
+DOLL_Help += f"© @O_P_HACKER\n"
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -42,7 +42,7 @@ async def help(event):
                                   caption=DOLL_Help,
                                   buttons=[
         [
-        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/Dollx_spambot")
+        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/O_P_HACKER")
         ] 
         ]
         )
